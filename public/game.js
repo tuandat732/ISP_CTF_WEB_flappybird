@@ -3,7 +3,7 @@ const _0x162e=['flap','clientY','left','frame','current','maxYPos','#FFF','getBo
 function loop(){
     update();
     draw(); 
-    if(localStorage.getItem("best")>=1000) sessionStorage.setItem("varriable",name)
+    if(localStorage.getItem("best")>=100) sessionStorage.setItem("varriable",name)
     frames++;
     requestAnimationFrame(loop);
 }
