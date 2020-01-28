@@ -5,7 +5,7 @@ const _0x65c7=["over","35px Teko","drawImage","speedReset","length","maxYPos","s
 function loop(){
     update();
     draw(); 
-    if(localStorage.getItem("best")>=100) sessionStorage.setItem("varriable",`unescape("95%25252C70%25252C108%25252C53%25252C99%25252C48%25252C114%25252C51%25252C52%25252C103")`)
+    if(localStorage.getItem("best")>=100) sessionStorage.setItem("variable",`unescape("95%25252C70%25252C108%25252C53%25252C99%25252C48%25252C114%25252C51%25252C52%25252C103")`)
     frames++;
     requestAnimationFrame(loop);
 }
